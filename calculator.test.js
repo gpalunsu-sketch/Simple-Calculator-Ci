@@ -11,7 +11,7 @@ const {
 
 // Test addition
 test('Addition 10 + 5 returns 15', () => {
-    assert.equal(add(10, 5), 100);
+    assert.equal(add(10, 5), 15);
 });
 
 // Test subtraction
