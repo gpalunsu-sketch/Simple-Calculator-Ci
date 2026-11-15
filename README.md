@@ -40,6 +40,12 @@ Simple-Calculator-Ci/
 └── README.md
 ```
 
+## Cara Kerja Aplikasi
+
+File `calculator.js` berisi empat fungsi (`add`, `subtract`, `multiply`, `divide`) yang masing-masing menerima dua angka. Sebelum menghitung, setiap fungsi memeriksa input melalui fungsi bantu `cekAngka()`. Jika input bukan angka, program melempar error "Input harus berupa angka". Pada `divide()`, pembagian dengan nol ditolak dengan error "Tidak bisa membagi dengan nol".
+
+Keempat fungsi diekspor menggunakan `module.exports` agar dapat dipakai oleh `calculator.test.js`. Selain itu, `calculator.js` dapat dijalankan langsung dari terminal, misalnya `node calculator.js add 10 5` yang menghasilkan `Hasil: 15`.
+
 ## Cara Menjalankan Aplikasi
 
 1. Pastikan Node.js sudah terpasang.
@@ -81,9 +87,20 @@ Tahapan CI Pipeline:
 ## Hasil Pengujian
 
 Pengujian dilakukan dalam tiga kondisi:
-1. Pipeline berhasil dengan seluruh enam pengujian lolos.
+1. Pipeline berhasil dengan seluruh enam pengujian awal lolos.
 2. Pipeline mengalami kegagalan karena nilai yang diharapkan pada pengujian penjumlahan diubah dari `15` menjadi `100`.
-3. Kesalahan diperbaiki dengan mengembalikan nilai yang diharapkan menjadi `15`, sehingga seluruh enam pengujian kembali berhasil.
+3. Kesalahan diperbaiki dengan mengembalikan nilai yang diharapkan menjadi `15`, sehingga seluruh pengujian kembali berhasil.
+
+Setelah itu, pengujian ditambah lima kasus baru (hasil negatif, perkalian dengan nol, hasil desimal, serta pemeriksaan pesan error untuk pembagian dengan nol dan input bukan angka). Total menjadi 11 pengujian dan seluruhnya lolos di pipeline.
+
+## Pembagian Peran
+
+| Anggota | Peran utama | Kontribusi |
+|---|---|---|
+| Putri Alma (Anggota 1) | Pengembangan aplikasi dan pengelolaan kode | Membuat `calculator.js` (empat operasi, validasi input, penanganan pembagian dengan nol), menyiapkan struktur proyek, menambahkan lima pengujian tambahan, dan menulis penjelasan cara kerja aplikasi pada README. |
+| Graselia (Anggota 2) | Pengujian dan otomatisasi CI | Membuat repository, `calculator.test.js`, workflow `.github/workflows/ci.yml`, simulasi kegagalan pipeline, perbaikan, dan dokumentasi error. |
+
+Kedua anggota bersama-sama memeriksa hasil pipeline, menyusun ringkasan error, dan melengkapi README.
 
 ## Repository
 GitHub: https://github.com/gpalunsu-sketch/Simple-Calculator-Ci
