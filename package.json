@@ -1,0 +1,21 @@
+{
+  "name": "simple-calculator-ci",
+  "version": "1.0.0",
+  "description": "Proyek Aplikasi Kalkulator Sederhana dengan Continuous Integration menggunakan GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpalunsu-sketch/Simple-Calculator-Ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gpalunsu-sketch/Simple-Calculator-Ci/issues"
+  },
+  "homepage": "https://github.com/gpalunsu-sketch/Simple-Calculator-Ci#readme"
+}
