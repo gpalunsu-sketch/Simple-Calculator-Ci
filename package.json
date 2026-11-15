@@ -1,10 +1,11 @@
+
 {
   "name": "simple-calculator-ci",
   "version": "1.0.0",
   "description": "Proyek Aplikasi Kalkulator Sederhana dengan Continuous Integration menggunakan GitHub Actions",
-  "main": "index.js",
+  "main": "calculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
