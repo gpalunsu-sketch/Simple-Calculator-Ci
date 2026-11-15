@@ -26,6 +26,13 @@ Simple-Calculator-Ci/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
+├── Pengumpulan Tugas Pipeline CI/
+│   ├── Screenshot/
+│   │   ├── 01-Pipeline-Berhasil.png
+│   │   ├── 02-Pipeline-Gagal.png
+│   │   └── 03-Pipeline-Perbaikan.png
+│   ├── Ringkasan-Error.txt
+│   └── Tautan_Tugas.txt
 ├── calculator.js
 ├── calculator.test.js
 ├── package.json
