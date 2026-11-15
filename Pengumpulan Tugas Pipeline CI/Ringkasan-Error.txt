@@ -1,0 +1,11 @@
+RINGKASAN ERROR DAN PERBAIKAN PIPELINE CI
+
+Pada pelaksanaan pengujian CI Pipeline, ditemukan kesalahan pada pengujian fungsi penjumlahan (add). Kesalahan terjadi karena nilai yang diharapkan ditetapkan sebesar 100, sedangkan hasil sebenarnya dari penjumlahan 10 + 5 adalah 15.
+
+Akibat kesalahan tersebut, satu dari enam pengujian mengalami kegagalan sehingga CI Pipeline menunjukkan status gagal.
+
+Perbaikan dilakukan dengan mengubah kembali nilai yang diharapkan dari 100 menjadi 15 pada file calculator.test.js. Setelah dilakukan perbaikan, pengujian secara lokal menunjukkan bahwa seluruh enam pengujian berhasil tanpa adanya kegagalan.
+
+Selanjutnya, perubahan dikirim ke repository GitHub dan CI Pipeline kembali berhasil dijalankan.
+
+Dengan demikian, CI Pipeline berhasil mendeteksi kesalahan pada proses pengujian dan menunjukkan keberhasilan setelah kesalahan diperbaiki.

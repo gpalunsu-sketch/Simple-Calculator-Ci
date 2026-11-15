@@ -1,0 +1,6 @@
+Bukti Tautan
+Repository : https://github.com/gpalunsu-sketch/Simple-Calculator-Ci
+Pipeline berhasil pertama : https://github.com/gpalunsu-sketch/Simple-Calculator-Ci/actions/runs/43691684063
+Pipeline gagal : https://github.com/gpalunsu-sketch/Simple-Calculator-Ci/actions/runs/43692244676
+Pipeline berhasil setelah perbaikan : https://github.com/gpalunsu-sketch/Simple-Calculator-Ci/actions/runs/43692710711
+File workflow : https://github.com/gpalunsu-sketch/Simple-Calculator-Ci/blob/main/.github/workflows/ci.yml
