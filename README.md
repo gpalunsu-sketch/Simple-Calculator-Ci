@@ -98,7 +98,7 @@ Setelah itu, pengujian ditambah lima kasus baru (hasil negatif, perkalian dengan
 | Anggota | Peran utama | Kontribusi |
 |---|---|---|
 | Putri Alma (Anggota 1) | Pengembangan aplikasi dan pengelolaan kode | Membuat `calculator.js` (empat operasi, validasi input, penanganan pembagian dengan nol), menyiapkan struktur proyek, menambahkan lima pengujian tambahan, dan menulis penjelasan cara kerja aplikasi pada README. |
-| Graselia (Anggota 2) | Pengujian dan otomatisasi CI | Membuat repository, `calculator.test.js`, workflow `.github/workflows/ci.yml`, simulasi kegagalan pipeline, perbaikan, dan dokumentasi error. |
+| Graselia (Anggota 2) | Pengujian dan otomatisasi CI | Membuat repository, `calculator.test.js`, workflow `.github/workflows/ci.yml`, simulasi kegagalan pipeline, perbaikan, dokumentasi error, serta menyusun kerangka utama README (deskripsi proyek, fitur, struktur proyek, cara menjalankan aplikasi dan pengujian, penjelasan CI, dan hasil pengujian). |
 
 Kedua anggota bersama-sama memeriksa hasil pipeline, menyusun ringkasan error, dan melengkapi README.
 
